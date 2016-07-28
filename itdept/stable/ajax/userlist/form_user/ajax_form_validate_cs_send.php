@@ -26,14 +26,14 @@ foreach($arrayForm as $f_key => $f_Items){
 		case $prefix.'location':
 		case $prefix.'executive':
 		case $prefix.'groupdep':
-			if($_POST[$f_Items['name']] == '0'){
+			/*if($_POST[$f_Items['name']] == '0'){
 				$rezArr[0][$f_key]['mistakeIU'] = 'mistake';
 				$rezArr[0][$f_key]['msg'] = 'Не все необходимые поля заполнены';
 					$mistake = 1;
 			}else{
 				$rezArr[0][$f_key]['mistakeIU'] = 'nomistake';
 			}
-			break;
+			break;*/
 		case $prefix.'department':
 		$rezArr[0][$f_key]['mistakeIU'] = 'nomistake';
 			break;
