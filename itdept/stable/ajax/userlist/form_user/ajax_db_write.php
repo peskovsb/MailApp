@@ -1,7 +1,7 @@
 <?
 session_start();
 $userMe = 'peskov@bioline';
-$adressesMAIL = 'fedosova@bioline.ru, it@bioline.ru, belskaya@bioline.ru, peskov@bioline.ru, kajukova@bioline.ru';
+$adressesMAIL = 'fedosova@bioline.ru, it@bioline.ru, belskaya@bioline.ru, peskov@bioline.ru, kajukova@bioline.ru, romanova@bioline.ru';
 $chairMail = 'kodenuk@bioline.ru';
 $OneC_Mail = '1c@bioline.ru';
 $receptionMail = 'reception1@bioline.ru, reception2@bioline.ru';
